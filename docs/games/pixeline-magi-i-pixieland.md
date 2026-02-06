@@ -7,11 +7,12 @@ nav_order: 1
 
 ## Pixeline – Magi i Pixieland
 
-![alt text](https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/images/pixeline-magi-i-pixieland.png)
+<br>
+<img src="https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/images/pixeline-magi-i-pixieland.png" height="300rem"/>
 
 ### Fixes and patches:
 
-* [SafeDisc DRM Fix](/safediscloader2.html) - Required to play the game
+* [SafeDisc DRM Fix](/ForgottenGames/fixes-and-patches/safediscloader2.html) - Required to play the game
 
 <hr>
 
