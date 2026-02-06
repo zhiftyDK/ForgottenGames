@@ -15,7 +15,7 @@ SafeDiscLoader2: [https://github.com/nckstwrt/SafeDiscLoader2/releases/latest](h
 ```bash
 C:\Program Files (x86)\My Game\
     │   MyGame.exe
-    │   version.dll <- Here
+    │   version.dll <- Put the version.dll file here in the root of your game folder
     ├───folder1
     ├───folder2
     └───folder3

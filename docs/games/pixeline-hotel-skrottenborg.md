@@ -2,7 +2,7 @@
 layout: page
 title: Pixeline – Hotel Skrottenborg
 parent: Games
-nav_order: 1
+nav_order: 2
 ---
 
 ## Pixeline – Hotel Skrottenborg
