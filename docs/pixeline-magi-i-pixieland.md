@@ -1,9 +1,10 @@
-README – Gamle Windows-spil med SafeDisc (Windows 10 / 11)
+---
+layout: page
+title: Pixeline – Magi i Pixieland
+nav_order: 10
+---
 
-Dette dokument forklarer, hvordan ældre Windows-spil med SafeDisc kan afvikles på
-moderne Windows-systemer.
-Første spil dækket er: Pixeline – Magi i Pixieland.
-
+## Pixeline – Magi i Pixieland.
 --------------------------------------------------
 
 VIGTIGT OM SAFEDISC
