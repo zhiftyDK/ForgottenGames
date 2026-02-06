@@ -13,7 +13,7 @@ The mounted ISO is needed for some games built in disc check.
 
 Automatic ISO Mounting Script: [https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/patches/Start.bat](https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/patches/Start.bat)
 
-#### Example of where to put <strong>version.dll</strong>:
+#### Example of where to put your iso and <strong>Start.bat</strong>:
 ```bash
 C:\Program Files (x86)\My Game\
     │   MyGame.exe

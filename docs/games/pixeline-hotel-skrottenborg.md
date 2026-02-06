@@ -22,7 +22,7 @@ nav_order: 2
 
 ### System Requirements:
 
-The game doesnt scale properly (postage stamp effect) at all. The game is only tested with these fixes on a x86 Windows machine.
+The game doesnt scale properly (postage stamp effect) unless you change your resolution. The game is only tested with these fixes on a x86 Windows machine.
 
 ```bash
 Resolution = 800x600
@@ -43,5 +43,4 @@ The CD/DVD/iso must be mounted for the game to play.
 ### Known limitations:
 
 * Needs the CD/DVD/iso mounted
-* No support for resolutions above 1080p Full HD
-* Game doesnt scale properly (postage stamp effect)
+* Only works on the resolution 800x600
