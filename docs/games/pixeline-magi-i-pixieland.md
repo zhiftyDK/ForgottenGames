@@ -4,10 +4,10 @@ title: Pixeline – Magi i Pixieland
 parent: Games
 nav_order: 1
 ---
-<div style="display: flex; align-items: center; gap: 10rem; margin-bottom: 1em;">
-    <h1 style="margin:0;">Pixeline – Magi i Pixieland</h1>
-    <img src="https://github.com/zhiftyDK/ForgottenGames/blob/main/images/pixeline-magi-i-pixieland.png" alt="Pixeline – Magi i Pixieland" style="width: 10vw; height:auto; border-radius:5px;">
-</div>
+
+## Pixeline – Magi i Pixieland
+
+![alt text](https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/images/pixeline-magi-i-pixieland.png)
 
 ### Fixes and patches:
 
