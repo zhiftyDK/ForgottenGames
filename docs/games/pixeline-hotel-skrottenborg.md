@@ -10,11 +10,13 @@ nav_order: 1
 <br>
 <img src="https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/images/pixeline-hotel-skrottenborg.jpg" width="300rem"/>
 
-### Playability: 🟡
+### Playability: 🟢
 
 ### Fixes and patches:
 
 * [SafeDiscLoader2](/ForgottenGames/fixes-and-patches/safediscloader2dll.html) - Required to play the game
+
+* Set windows display resolution to 800x600 for the game to display properly.
 
 <hr>
 
@@ -23,7 +25,7 @@ nav_order: 1
 The game doesnt scale properly (postage stamp effect) at all. The game is only tested with these fixes on a x86 Windows machine.
 
 ```bash
-Resolution = 1920x1080
+Resolution = 800x600
 Platform = x86
 OS = Windows
 ```
