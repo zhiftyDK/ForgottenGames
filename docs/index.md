@@ -26,7 +26,9 @@ A website that documents fixes and ways to play old computer games from the wind
 ### N
 ### O
 ### P
-* [Pixeline - Magi i Pixieland](/ForgottenGames/games/pixeline-magi-i-pixieland.html)
+
+- [Pixeline - Magi i Pixieland](/ForgottenGames/games/pixeline-magi-i-pixieland.html)
+
 ### Q
 ### R
 ### S
