@@ -1,7 +1,0 @@
-- title: Games
-  url: /games/
-  # children will be automatically pulled from pages in /games/ based on nav_order
-
-- title: Fixes & Patches
-  url: /fixes-and-patches/
-  # children will be automatically pulled from pages in /fixes-and-patches/ based on nav_order

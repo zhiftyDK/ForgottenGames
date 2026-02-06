@@ -6,6 +6,3 @@ nav_order: 1
 
 # Forgotten Games
 A website that documents fixes and ways to play old computer games from the windows 98/xp era.
-
-## Games
-- [Pixeline – Magi i Pixieland](pixeline-magi-i-pixieland.html)

@@ -8,7 +8,7 @@ nav_order: 1
 
 ### Fixes and patches:
 
-* [SafeDisc DRM Fix]() - Required to play the game
+* [SafeDisc DRM Fix](/safediscloader2.html) - Required to play the game
 
 <hr>
 
