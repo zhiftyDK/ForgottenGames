@@ -8,7 +8,7 @@ nav_order: 1
 ## Pixeline – Magi i Pixieland
 
 <br>
-<img src="https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/images/pixeline-magi-i-pixieland.png" height="300rem"/>
+<img src="https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/images/pixeline-magi-i-pixieland.png" width="300rem"/>
 
 ### Fixes and patches:
 
