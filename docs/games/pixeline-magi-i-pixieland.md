@@ -4,8 +4,12 @@ title: Pixeline – Magi i Pixieland
 parent: Games
 nav_order: 1
 ---
-
-## Pixeline – Magi i Pixieland
+<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 1em;">
+  <h1 style="margin:0;">Pixeline – Magi i Pixieland</h1>
+  <img src="/images/pixeline-magi-i-pixieland.png" 
+       alt="Pixeline – Magi i Pixieland" 
+       style="width:50px; height:auto; border-radius:5px;">
+</div>
 
 ### Fixes and patches:
 
