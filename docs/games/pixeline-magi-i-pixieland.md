@@ -10,6 +10,8 @@ nav_order: 1
 <br>
 <img src="https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/images/pixeline-magi-i-pixieland.png" width="300rem"/>
 
+### Playability: 🟢
+
 ### Fixes and patches:
 
 * [SafeDiscLoader2](/ForgottenGames/fixes-and-patches/safediscloader2dll.html) - Required to play the game

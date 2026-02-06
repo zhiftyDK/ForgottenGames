@@ -10,6 +10,8 @@ A website that documents fixes and ways to play old computer games from the wind
 
 ## Games
 
+##### 🟢 Fully playable 🟡 Playable but not perfect 🔴 Not playable at all
+
 ### A
 ### B
 ### C
@@ -27,7 +29,8 @@ A website that documents fixes and ways to play old computer games from the wind
 ### O
 ### P
 
-- [Pixeline - Magi i Pixieland](/ForgottenGames/games/pixeline-magi-i-pixieland.html)
+- [Pixeline - Magi i Pixieland](/ForgottenGames/games/pixeline-magi-i-pixieland.html) 🟢
+- [Pixeline - Hotel Skrottenborg](/ForgottenGames/games/pixeline-hotel-skrottenborg.html) 🟡
 
 ### Q
 ### R
