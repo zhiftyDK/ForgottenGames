@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Pixeline – Magi i Pixieland
+parent: Games
 nav_order: 1
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: SafeDiscLoader2
+parent: Fixes and Patches
 nav_order: 1
 ---
 
