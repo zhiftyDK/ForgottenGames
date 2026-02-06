@@ -8,7 +8,7 @@ nav_order: 3
 ## Pixeline – i Pixieland
 
 <br>
-<img src="https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/images/pixeline-i-pixieland.jpg" width="300rem"/>
+<img src="https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/images/pixeline-i-pixieland.png" width="300rem"/>
 
 ### Playability: 🟢
 

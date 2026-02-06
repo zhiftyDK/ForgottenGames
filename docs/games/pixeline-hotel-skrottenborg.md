@@ -8,7 +8,7 @@ nav_order: 2
 ## Pixeline – Hotel Skrottenborg
 
 <br>
-<img src="https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/images/pixeline-hotel-skrottenborg.jpg" width="300rem"/>
+<img src="https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/images/pixeline-hotel-skrottenborg.png" width="300rem"/>
 
 ### Playability: 🟢
 
