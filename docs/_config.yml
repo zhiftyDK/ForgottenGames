@@ -3,5 +3,5 @@ plugins:
 - jekyll-remote-theme
 color_scheme: dark
 title: Forgotten Games
-description: Documentation for the SafeDisc game engine
+description: Documentation for how to run old and abandoned games on modern hardware.
 url: https://zhiftydk.github.io/ForgottenGames
