@@ -31,6 +31,7 @@ A website that documents fixes and ways to play old computer games from the wind
 
 - [Pixeline - Magi i Pixieland](/ForgottenGames/games/pixeline-magi-i-pixieland.html) 🟢
 - [Pixeline - Hotel Skrottenborg](/ForgottenGames/games/pixeline-hotel-skrottenborg.html) 🟢
+- [Pixeline - i Pixieland](/ForgottenGames/games/pixeline-i-pixieland.html) 🟢
 
 ### Q
 ### R
