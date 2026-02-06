@@ -4,32 +4,16 @@ title: Pixeline – Magi i Pixieland
 nav_order: 10
 ---
 
-## Pixeline – Magi i Pixieland.
---------------------------------------------------
+## Pixeline – Magi i Pixieland
 
-VIGTIGT OM SAFEDISC
+### DRM fix - Legal SafeDisc bypass
 
-Windows 10 og 11 understøtter ikke længere SafeDisc direkte.
-For at spillet kan starte, anvendes en lokal version.dll.
+To play the game we need to "re-enable" the outdated SafeDisc drm. This is safely done by downloading the SafeDiscLoader2_*.zip from SafeDiscLoader2's github repo and dropping the version.dll file next to the .exe file.
 
-Dette bryder IKKE kopibeskyttelsen.
-Den originale CD/DVD skal stadig være i drevet, ellers starter spillet ikke.
+SafeDiscLoader2: https://github.com/nckstwrt/SafeDiscLoader2/releases/latest
 
---------------------------------------------------
-
-PIXELINE – MAGI I PIXIELAND
-
-Installationssti:
-C:\Program Files (x86)\Pixeline\Pixeline - Magi i Pixieland\
-
---------------------------------------------------
-
-PLACERING AF version.dll
-
-version.dll skal ligge i samme mappe som spillets .exe-fil.
-
-Korrekt struktur:
-
+#### Example of where to put `version.dll`:
+```bash
 C:\Program Files (x86)\Pixeline\Pixeline - Magi i Pixieland\
 │
 ├─ Pixeline - Magi i Pixieland.exe
@@ -37,41 +21,34 @@ C:\Program Files (x86)\Pixeline\Pixeline - Magi i Pixieland\
 ├─ data\
 ├─ scenes\
 └─ xtras\
+```
 
-version.dll må ikke placeres i:
-- System32
-- SysWOW64
-- Undermapper
+#### Why this does NOT break copyprotection:
 
---------------------------------------------------
+It doesnt bypass the drm like classic no cd patches. It emulates the DRM safely. This does mean that the games copyprotection still works and you still need the disc mounted. [Read More.](https://github.com/nckstwrt/SafeDiscLoader2)
 
-OPSTART
+<hr>
 
-Spillet startes direkte via:
-Pixeline - Magi i Pixieland.exe
+### System Requirements
 
-CD/DVD’en skal være indsat i drevet ved opstart.
+The game doesnt scale properly on displays with a resolution over 1920x1080.
 
---------------------------------------------------
+```bash
+Resolution = 1920x1080
+Platform = Windows
+```
 
-SKÆRMOPLØSNING (VIGTIGT)
+<hr>
 
-Spillet understøtter maksimalt 1920x1080.
+### Startup
 
-Højere opløsninger kan medføre:
-- Sort skærm
-- Forkert visning
-- Crash ved opstart
+You can start the game from the start menu or by double-clicking the executable.
 
-Anbefaling:
-Sæt Windows-skærmopløsningen til 1920x1080 eller lavere før opstart.
+The CD/DVD/iso must be mounted for the game to play.
 
---------------------------------------------------
+<hr>
 
-KENDTE BEGRÆNSNINGER
+### Known limitations
 
-- Kræver fysisk CD/DVD i drevet
-- SafeDisc kræver workaround på Windows 10/11
-- Ingen understøttelse af høje opløsninger eller DPI-skalering
-
---------------------------------------------------
+* Needs the CD/DVD/iso mounted
+* No support for higher resolutions

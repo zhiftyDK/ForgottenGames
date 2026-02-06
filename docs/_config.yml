@@ -1,6 +1,7 @@
 remote_theme: just-the-docs/just-the-docs
 plugins:
 - jekyll-remote-theme
-title: Forgotten Games Documentation
+color_scheme: dark
+title: Forgotten Games
 description: Documentation for the SafeDisc game engine
 url: https://zhiftydk.github.io/ForgottenGames
