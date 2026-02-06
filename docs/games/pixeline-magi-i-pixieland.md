@@ -12,7 +12,7 @@ nav_order: 1
 
 ### Fixes and patches:
 
-* [SafeDisc DRM Fix](/ForgottenGames/fixes-and-patches/safediscloader2.html) - Required to play the game
+* [SafeDiscLoader2](/ForgottenGames/fixes-and-patches/safediscloader2dll.html) - Required to play the game
 
 <hr>
 

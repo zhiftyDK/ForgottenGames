@@ -5,7 +5,7 @@ parent: Fixes and Patches
 nav_order: 1
 ---
 
-## SafeDiscLoader2 Guide
+## SafeDiscLoader2 Version.dll Guide
 
 To play the game we need to "re-enable" the outdated SafeDisc drm. This is safely done by downloading the <strong>SafeDiscLoader2_*.zip</strong> file from SafeDiscLoader2's github repo, inside the zip you should find <strong>version.dll</strong>. Put that next to the .exe file.
 
