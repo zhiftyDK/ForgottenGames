@@ -1,8 +1,6 @@
 ## GDI Scaling Patch
 
-Some older GDI games doesnt scale to fullscreen on modern computers and monitors. This patch will re-scale the game to fit on higher resolution computers in fullscreen mode. Download the <strong>gdi_scaling_patch.zip</strong> and add <strong>winmm.dll</strong> + <strong>winmm_orig.dll</strong> next to your .exe file.
-
-GDI Scaling Patch: [https://github.com/nckstwrt/SafeDiscLoader2/releases/latest](https://github.com/nckstwrt/SafeDiscLoader2/releases/latest)
+Some older GDI games doesnt scale to fullscreen on modern computers and monitors. This patch will re-scale the game to fit on higher resolution computers in fullscreen mode. Add <strong>winmm.dll</strong> + <strong>winmm_orig.dll</strong> next to your .exe file.
 
 #### Example of where to put <strong>winmm.dll</strong> and <strong>winmm_orig.dll</strong>:
 ```bash
