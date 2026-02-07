@@ -11,7 +11,7 @@ If you happen to have an ISO (Legally obtained) of the game then this script wil
 
 The mounted ISO is needed for some games built in disc check.
 
-Automatic ISO Mounting Script: [https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/patches/Start.bat](https://raw.githubusercontent.com/zhiftyDK/ForgottenGames/refs/heads/main/patches/Start.bat)
+Automatic ISO Mounting Script: [Download Start.bat](https://github.com/zhiftyDK/ForgottenGames/releases/download/auto-iso-mounting-script/Start.bat)
 
 #### Example of where to put your iso and <strong>Start.bat</strong>:
 ```bash
