@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pixeline Skolehjaelp: Laer om Vikingerne: Kongekampen
+title: Pixeline Skolehjaelp - Vikingerne
 parent: Games
 nav_order: 4
 ---
