@@ -8,7 +8,7 @@ nav_order: 4
 ## Pixeline Skolehjælp: Lær om Vikingerne: Kongekampen
 
 <br>
-<img src="https://github.com/zhiftyDK/ForgottenGames/blob/main/images/pixeline-skolehjælp-vikingerne.png?raw=1" width="300rem"/>
+<img src="https://github.com/zhiftyDK/ForgottenGames/blob/main/images/pixeline-skolehjaelp-vikingerne.jpg?raw=1" width="300rem"/>
 
 ### Playability: 🟢
 
