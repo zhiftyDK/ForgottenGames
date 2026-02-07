@@ -38,6 +38,7 @@ The purpose of this project is to document and provide technical solutions, fixe
 - [Pixeline - Magi i Pixieland](/ForgottenGames/games/pixeline-magi-i-pixieland.html) 🟢
 - [Pixeline - Hotel Skrottenborg](/ForgottenGames/games/pixeline-hotel-skrottenborg.html) 🟢
 - [Pixeline - i Pixieland](/ForgottenGames/games/pixeline-i-pixieland.html) 🟢
+- [Pixeline Skolehjælp: Lær om Vikingerne: Kongekampen](/ForgottenGames/games/pixeline-skolehjælp-vikingerne.html) 🟢
 
 ### Q
 ### R
