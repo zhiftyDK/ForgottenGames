@@ -9,9 +9,9 @@ nav_order: 2
 
 If you happen to have an ISO (Legally obtained) of the game then this script will automatically mount the ISO and then start the game. When the game closes it will automatically unmount the ISO again.
 
-The mounted ISO is needed for some games built in disc check.
+The mounted ISO is needed for some games built in disc check. Download the start.bat file from the release and put it next to the .exe file and add your iso in the same directory aswell.
 
-Automatic ISO Mounting Script: [Download Start.bat](https://github.com/zhiftyDK/ForgottenGames/releases/download/auto-iso-mounting-script/Start.bat)
+Automatic ISO Mounting Script: [https://github.com/zhiftyDK/ForgottenGames/releases/auto-iso-mounting-script](https://github.com/zhiftyDK/ForgottenGames/releases/auto-iso-mounting-script)
 
 #### Example of where to put your iso and <strong>Start.bat</strong>:
 ```bash
