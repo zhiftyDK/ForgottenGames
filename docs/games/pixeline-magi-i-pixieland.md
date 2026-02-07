@@ -16,6 +16,8 @@ nav_order: 1
 
 * [SafeDiscLoader2](/ForgottenGames/fixes-and-patches/safediscloader2dll.html) - Required to play the game
 
+* Game prompts for resolution change upon startup. Click yes!
+
 <hr>
 
 ### System Requirements
