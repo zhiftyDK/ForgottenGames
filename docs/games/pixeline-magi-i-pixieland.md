@@ -18,6 +18,7 @@ nav_order: 1
     async function load() {
         const res = await fetch(`https://archive.org/metadata/${id}`);
         const data = res.json();
+        console.log(data);
         document.getElementById("year").innerText = data.metadata.date;
         document.getElementById("creator").innerText = data.metadata.creator;
         document.getElementById("desc").innerText = data.metadata.description;
