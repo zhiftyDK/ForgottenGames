@@ -1,14 +1,31 @@
 ---
 layout: page
-title: Pixeline Skolehjaelp - Vikingerne
+title: Pixeline - Vikingerne
 parent: Games
-nav_order: 4
 ---
 
 ## Pixeline Skolehjælp: Lær om Vikingerne: Kongekampen
 
 <br>
 <img src="https://github.com/zhiftyDK/ForgottenGames/blob/main/images/pixeline-skolehjaelp-vikingerne.jpg?raw=1" width="300rem"/>
+
+<details>
+<summary>About the game</summary>
+<p id="year"></p>
+<p id="creator"></p>
+<p id="desc"></p>
+</details>
+<script>
+    const id = "pixeline-vikingerne";
+    async function load() {
+        const res = await fetch(`https://archive.org/metadata/${id}`);
+        const data = await res.json();
+        document.getElementById("year").innerHTML = "<strong>Year: </strong>" + data.metadata.date;
+        document.getElementById("creator").innerHTML = "<strong>Publisher: </strong>" + data.metadata.creator;
+        document.getElementById("desc").innerHTML = data.metadata.description;
+    }
+    load();
+</script>
 
 ### Playability: 🟢
 

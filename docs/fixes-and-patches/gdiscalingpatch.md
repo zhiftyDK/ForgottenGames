@@ -2,7 +2,6 @@
 layout: page
 title: GDI Scaling Patch
 parent: Fixes and Patches
-nav_order: 3
 ---
 
 ## GDI Scaling Patch

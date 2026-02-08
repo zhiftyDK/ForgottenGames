@@ -2,7 +2,6 @@
 layout: page
 title: Auto ISO Mounting Script
 parent: Fixes and Patches
-nav_order: 2
 ---
 
 ## Auto ISO Mounting Script
