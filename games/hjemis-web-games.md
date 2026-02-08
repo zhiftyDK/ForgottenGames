@@ -16,7 +16,7 @@ parent: Games
 
 Alot of the games are still playable in the browser thanks to web.archive.org. The games are hosted by ForgottenGames. The .dcr Shockwave games are not playable unfortunately. But there is a link to the .dcr files in the bottom of this page.
 
-#### .swf Flash games
+#### .swf Flash games:
 
 * [Dåseskjul](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=dåseskjul.swf) 🟢
 
@@ -30,9 +30,7 @@ Alot of the games are still playable in the browser thanks to web.archive.org. T
 
 * [Puslespil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=puslespil.swf) 🟢
 
-#### .dcr Shockwave games
-
-<br>
+#### .dcr Shockwave games:
 
 [Archived .dcr game files](https://github.com/zhiftyDK/ForgottenGames/tree/main/archive/hjemis_web_games/dcrgames)
 
