@@ -10,9 +10,13 @@ nav_order: 1
 <br>
 <img src="https://github.com/zhiftyDK/ForgottenGames/blob/main/images/pixeline-magi-i-pixieland.png?raw=1" width="300rem"/>
 
+
+<details>
+<summary>About the game</summary>
 <p id="year"></p>
 <p id="creator"></p>
 <p id="desc"></p>
+</details>
 <script>
     const id = "pixeline-magi-i-pixieland";
     async function load() {
