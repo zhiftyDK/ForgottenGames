@@ -4,7 +4,7 @@ title: Pixeline – i Pixieland
 parent: Games
 ---
 
-## Pixeline – i Pixieland
+# Pixeline – i Pixieland
 
 <br>
 <img src="https://zhiftydk.github.io/ForgottenGames/images/pixeline-i-pixieland.png" width="300rem"/>
@@ -27,9 +27,9 @@ parent: Games
     load();
 </script>
 
-### Playability: 🟢
+## Playability: 🟢
 
-### Fixes and patches:
+## Fixes and patches:
 
 * [SafeDiscLoader2](/ForgottenGames/fixes-and-patches/safediscloader2dll.html) - Required to play the game
 
@@ -37,7 +37,7 @@ parent: Games
 
 <hr>
 
-### System Requirements
+## System Requirements
 
 The game doesnt scale properly (postage stamp effect) on displays with a resolution over 1920x1080. The game is only tested with these fixes on a x86 Windows machine.
 
@@ -49,7 +49,7 @@ OS = Windows
 
 <hr>
 
-### Starting the game
+## Starting the game
 
 You can start the game from the start menu or by double-clicking the executable.
 
@@ -59,7 +59,7 @@ The CD/DVD/iso must be mounted for the game to play.
 
 <hr>
 
-### Known limitations
+## Known limitations
 
 * Needs the CD/DVD/iso mounted
 * No support for resolutions above 1080p Full HD

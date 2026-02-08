@@ -4,7 +4,7 @@ title: Auto ISO Mounting Script
 parent: Fixes and Patches
 ---
 
-## Auto ISO Mounting Script
+# Auto ISO Mounting Script
 
 If you happen to have an ISO (Legally obtained) of the game then this script will automatically mount the ISO and then start the game. When the game closes it will automatically unmount the ISO again.
 
