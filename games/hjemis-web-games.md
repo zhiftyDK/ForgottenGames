@@ -13,6 +13,7 @@ parent: Games
 ### Games:
 
 ##### 🟢 Fully playable 🟡 Playable but not perfect 🔴 Not playable at all
+<br>
 
 Alot of the games are still playable in the browser thanks to web.archive.org. The games are hosted by ForgottenGames. The .dcr Shockwave games are not playable unfortunately. But there is a link to the .dcr files in the bottom of this page.
 
