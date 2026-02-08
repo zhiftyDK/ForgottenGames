@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background: black;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #swfplayer {
+            width: 800px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div id="swfplayer"></div>
+
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            const params = new URLSearchParams(window.location.search);
+            const swf = params.get("swf");
+            if (!swf) return;
+
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+
+            player.style.width = "100%";
+            player.style.height = "100%";
+
+            document.getElementById("swfplayer").appendChild(player);
+            player.load(swf);
+        });
+    </script>
+</body>
+</html>
