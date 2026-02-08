@@ -16,17 +16,17 @@ Alot of the games are still playable in the browser thanks to web.archive.org. T
 
 ### .swf Flash games:
 
-* [Dåseskjul](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=dåseskjul.swf)
+* [Dåseskjul](https://zhiftydk.github.io/ForgottenGames/swfplayer.html?swf=archive/hjemis_web_games/dåseskjul.swf)
 
-* [Fang en is](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=fang_en_is.swf)
+* [Fang en is](https://zhiftydk.github.io/ForgottenGames/swfplayer.html?swf=archive/hjemis_web_games/fang_en_is.swf)
 
-* [Lillebror cykelspil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=lillebror_cykelspil.swf)
+* [Lillebror cykelspil](https://zhiftydk.github.io/ForgottenGames/swfplayer.html?swf=archive/hjemis_web_games/lillebror_cykelspil.swf)
 
-* [Mumle terningspil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=mumle_terningspil.swf)
+* [Mumle terningspil](https://zhiftydk.github.io/ForgottenGames/swfplayer.html?swf=archive/hjemis_web_games/mumle_terningspil.swf)
 
-* [Pixeline regnespil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=pixeline_regnespil.swf)
+* [Pixeline regnespil](https://zhiftydk.github.io/ForgottenGames/swfplayer.html?swf=archive/hjemis_web_games/pixeline_regnespil.swf)
 
-* [Puslespil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=puslespil.swf)
+* [Puslespil](https://zhiftydk.github.io/ForgottenGames/swfplayer.html?swf=archive/hjemis_web_games/puslespil.swf)
 
 ### .dcr Shockwave games:
 
