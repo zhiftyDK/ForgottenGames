@@ -10,6 +10,24 @@ nav_order: 3
 <br>
 <img src="https://github.com/zhiftyDK/ForgottenGames/blob/main/images/pixeline-i-pixieland.png?raw=1" width="300rem"/>
 
+<details>
+<summary>About the game</summary>
+<p id="year"></p>
+<p id="creator"></p>
+<p id="desc"></p>
+</details>
+<script>
+    const id = "pixeline-cd-12-i-pixieland";
+    async function load() {
+        const res = await fetch(`https://archive.org/metadata/${id}`);
+        const data = await res.json();
+        document.getElementById("year").innerHTML = "<strong>Year: </strong>" + data.metadata.date;
+        document.getElementById("creator").innerHTML = "<strong>Publisher: </strong>" + data.metadata.creator;
+        document.getElementById("desc").innerHTML = data.metadata.description;
+    }
+    load();
+</script>
+
 ### Playability: 🟢
 
 ### Fixes and patches:
