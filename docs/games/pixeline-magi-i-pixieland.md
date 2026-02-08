@@ -17,7 +17,7 @@ nav_order: 1
     const id = "pixeline-magi-i-pixieland";
     async function load() {
         const res = await fetch(`https://archive.org/metadata/${id}`);
-        const data = res.json();
+        const data = await res.json();
         console.log(data);
         document.getElementById("year").innerText = data.metadata.date;
         document.getElementById("creator").innerText = data.metadata.creator;
