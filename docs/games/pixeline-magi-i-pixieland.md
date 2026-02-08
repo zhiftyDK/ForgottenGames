@@ -10,6 +10,21 @@ nav_order: 1
 <br>
 <img src="https://github.com/zhiftyDK/ForgottenGames/blob/main/images/pixeline-magi-i-pixieland.png?raw=1" width="300rem"/>
 
+<p id="year"></p>
+<p id="creator"></p>
+<p id="desc"></p>
+<script>
+    const id = "pixeline-magi-i-pixieland";
+    async function load() {
+        const res = await fetch(`https://archive.org/metadata/${id}`);
+        const data = res.json();
+        document.getElementByID("year").innerText = data.metadata.date;
+        document.getElementByID("creator").innerText = data.metadata.creator;
+        document.getElementByID("desc").innerText = data.metadata.description;
+    }
+    load();
+</script>
+
 ### Playability: 🟢
 
 ### Fixes and patches:
