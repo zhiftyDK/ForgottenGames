@@ -25,5 +25,6 @@ C:\Program Files (x86)\My Game\
 #### Compile source:
 
 ```bash
+# Compile using WinGW
 g++ -shared -m32 -O2 winmm.cpp winmm.def -o winmm.dll -lgdi32 -luser32 -static-libgcc -static-libstdc++
 ```

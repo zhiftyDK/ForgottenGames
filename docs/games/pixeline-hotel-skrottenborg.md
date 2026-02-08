@@ -43,4 +43,4 @@ The CD/DVD/iso must be mounted for the game to play.
 ### Known limitations:
 
 * Needs the CD/DVD/iso mounted
-* The game only works in fullscreen with the GDI Scaling Patch
+* The game only displays in fullscreen with the GDI Scaling Patch
