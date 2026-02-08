@@ -7,7 +7,7 @@ parent: Games
 ## HjemIs Web Games
 
 <br>
-<img src="https://zhiftydk.github.io/ForgottenGames/images/hjemis-web-games" width="300rem"/>
+<img src="https://zhiftydk.github.io/ForgottenGames/images/hjemis-web-games.png" width="500rem"/>
 
 
 ### Games:
