@@ -4,18 +4,17 @@ title: HjemIs Web Games
 parent: Games
 ---
 
-## HjemIs Web Games
+# HjemIs Web Games
 
 <br>
 <img src="https://zhiftydk.github.io/ForgottenGames/images/hjemis-web-games.png" width="500rem"/>
 
 
-### Games:
+## Games:
 
 Alot of the games are still playable in the browser thanks to web.archive.org. The games are hosted by ForgottenGames. The .dcr Shockwave games are not playable unfortunately. But there is a link to the .dcr files in the bottom of this page.
 
-#### .swf Flash games:
-<hr>
+### .swf Flash games:
 
 * [Dåseskjul](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=dåseskjul.swf)
 
@@ -29,8 +28,7 @@ Alot of the games are still playable in the browser thanks to web.archive.org. T
 
 * [Puslespil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=puslespil.swf)
 
-#### .dcr Shockwave games:
-<hr>
+### .dcr Shockwave games:
 
 [Archived .dcr game files](https://github.com/zhiftyDK/ForgottenGames/tree/main/archive/hjemis_web_games/dcrgames)
 
@@ -40,8 +38,7 @@ Alot of the games are still playable in the browser thanks to web.archive.org. T
 * BattaBatta (Snowboard_offline.dcr)
 * Pixeline Dyrespillet (Dyrespillet.dcr)
 
-#### Lost Games
-<hr>
+### Lost Games
 
 * Grotte (Hugo game)
 * Snebold (Hugo game)
