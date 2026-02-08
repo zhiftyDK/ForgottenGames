@@ -12,26 +12,25 @@ parent: Games
 
 ### Games:
 
-##### 🟢 Fully playable 🟡 Playable but not perfect 🔴 Not playable at all
-<br>
-
 Alot of the games are still playable in the browser thanks to web.archive.org. The games are hosted by ForgottenGames. The .dcr Shockwave games are not playable unfortunately. But there is a link to the .dcr files in the bottom of this page.
 
 #### .swf Flash games:
+<hr>
 
-* [Dåseskjul](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=dåseskjul.swf) 🟢
+* [Dåseskjul](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=dåseskjul.swf)
 
-* [Fang en is](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=fang_en_is.swf) 🟢
+* [Fang en is](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=fang_en_is.swf)
 
-* [Lillebror cykelspil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=lillebror_cykelspil.swf) 🟢
+* [Lillebror cykelspil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=lillebror_cykelspil.swf)
 
-* [Mumle terningspil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=mumle_terningspil.swf) 🟢
+* [Mumle terningspil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=mumle_terningspil.swf)
 
-* [Pixeline regnespil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=pixeline_regnespil.swf) 🟢
+* [Pixeline regnespil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=pixeline_regnespil.swf)
 
-* [Puslespil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=puslespil.swf) 🟢
+* [Puslespil](https://zhiftydk.github.io/ForgottenGames/archive/hjemis_web_games/swfplayer.html?swf=puslespil.swf)
 
 #### .dcr Shockwave games:
+<hr>
 
 [Archived .dcr game files](https://github.com/zhiftyDK/ForgottenGames/tree/main/archive/hjemis_web_games/dcrgames)
 
@@ -42,6 +41,7 @@ Alot of the games are still playable in the browser thanks to web.archive.org. T
 * Pixeline Dyrespillet (Dyrespillet.dcr)
 
 #### Lost Games
+<hr>
 
 * Grotte (Hugo game)
 * Snebold (Hugo game)
