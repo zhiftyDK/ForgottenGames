@@ -18,9 +18,9 @@ nav_order: 1
     async function load() {
         const res = await fetch(`https://archive.org/metadata/${id}`);
         const data = res.json();
-        document.getElementByID("year").innerText = data.metadata.date;
-        document.getElementByID("creator").innerText = data.metadata.creator;
-        document.getElementByID("desc").innerText = data.metadata.description;
+        document.getElementById("year").innerText = data.metadata.date;
+        document.getElementById("creator").innerText = data.metadata.creator;
+        document.getElementById("desc").innerText = data.metadata.description;
     }
     load();
 </script>
