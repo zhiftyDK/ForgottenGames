@@ -7,7 +7,7 @@ parent: Games
 ## Pixeline – Hotel Skrottenborg
 
 <br>
-<img src="https://github.com/zhiftyDK/ForgottenGames/blob/main/images/pixeline-hotel-skrottenborg.png?raw=1" width="300rem"/>
+<img src="https://zhiftydk.github.io/ForgottenGames/images/pixeline-hotel-skrottenborg.png" width="300rem"/>
 
 <details>
 <summary>About the game</summary>

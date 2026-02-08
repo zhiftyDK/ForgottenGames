@@ -7,7 +7,7 @@ parent: Games
 ## Pixeline Skolehjælp: Lær om Vikingerne: Kongekampen
 
 <br>
-<img src="https://github.com/zhiftyDK/ForgottenGames/blob/main/images/pixeline-skolehjaelp-vikingerne.jpg?raw=1" width="300rem"/>
+<img src="https://zhiftydk.github.io/ForgottenGames/images/pixeline-vikingerne.png" width="300rem"/>
 
 <details>
 <summary>About the game</summary>

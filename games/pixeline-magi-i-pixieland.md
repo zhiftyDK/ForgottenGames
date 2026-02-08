@@ -7,7 +7,7 @@ parent: Games
 ## Pixeline – Magi i Pixieland
 
 <br>
-<img src="https://github.com/zhiftyDK/ForgottenGames/blob/main/images/pixeline-magi-i-pixieland.png?raw=1" width="300rem"/>
+<img src="https://zhiftydk.github.io/ForgottenGames/images/pixeline-magi-i-pixieland.png" width="300rem"/>
 
 
 <details>
