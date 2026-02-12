@@ -39,11 +39,11 @@ parent: Games
 
 ## System Requirements:
 
-The game doesnt scale properly (postage stamp effect) unless you use the GDI Scaling Patch. The game is only tested with these fixes on a x86 Windows machine.
+The game doesnt scale properly (postage stamp effect) unless you use the GDI Scaling Patch. The game is only tested with these fixes on a 64bit Windows machine.
 
 ```bash
 Resolution = 1920x1080
-Platform = x86
+Platform = 64bit
 OS = Windows
 ```
 
