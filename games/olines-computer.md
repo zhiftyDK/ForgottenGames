@@ -7,7 +7,7 @@ parent: Games
 # Olines Computer
 
 <br>
-<img src="https://zhiftydk.github.io/ForgottenGames/images/oline.jpg" width="500rem"/>
+<img src="https://zhiftydk.github.io/ForgottenGames/images/oline.jpg" width="300rem"/>
 
 
 ### [Play Olines Computer](https://zhiftydk.github.io/ForgottenGames/swfplayer.html?swf=archive/olines-computer.swf)
