@@ -71,6 +71,25 @@
             background: black;
         }
 
+        /* DirPlayer embeds fill the same box as Ruffle */
+        #swfplayer embed,
+        #swfplayer object {
+            width: 100%;
+            height: 100%;
+        }
+
+        .status {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--muted);
+            padding: 24px;
+            text-align: center;
+            line-height: 1.5;
+        }
+
         /* Control bar */
         .control-bar {
             display: flex;
@@ -141,35 +160,95 @@
         </div>
     </div>
 
-    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <script>
-        let player;
-        let swfUrl;
+        const RUFFLE_URL = "https://unpkg.com/@ruffle-rs/ruffle";
+        const DIRPLAYER_URL = "https://dirplayer-rs.s3.us-west-2.amazonaws.com/dirplayer-polyfill-latest.js";
 
-        window.addEventListener("DOMContentLoaded", () => {
-            const params = new URLSearchParams(window.location.search);
-            swfUrl = params.get("swf");
-            if (!swfUrl) return;
+        const container = document.getElementById("swfplayer");
+        let player = null;   // Ruffle player element, if a Flash game is loaded
+        let kind = null;     // "flash" or "director"
+        let gameUrl = null;
 
+        function showStatus(text) {
+            container.innerHTML = "";
+            const p = document.createElement("div");
+            p.className = "status";
+            p.textContent = text;
+            container.appendChild(p);
+        }
+
+        function loadScript(src, attrs = {}) {
+            return new Promise((resolve, reject) => {
+                const s = document.createElement("script");
+                s.src = src;
+                for (const [k, v] of Object.entries(attrs)) s.setAttribute(k, v);
+                s.onload = resolve;
+                s.onerror = () => reject(new Error("Could not load " + src));
+                document.head.appendChild(s);
+            });
+        }
+
+        function detectKind(url) {
+            const path = url.split("#")[0].split("?")[0].toLowerCase();
+            return path.endsWith(".dcr") ? "director" : "flash";
+        }
+
+        async function startFlash() {
+            await loadScript(RUFFLE_URL);
             const ruffle = window.RufflePlayer.newest();
             player = ruffle.createPlayer();
-
             player.style.width = "100%";
             player.style.height = "100%";
-
-            const container = document.getElementById("swfplayer");
+            container.innerHTML = "";
             container.appendChild(player);
-            player.load(swfUrl);
+            player.load(gameUrl);
+        }
 
-            document.getElementById("restartBtn").addEventListener("click", () => {
-                player.load(swfUrl);
-            });
+        async function startDirector() {
+            // data-manual-init stops the polyfill from scanning the page on its own
+            await loadScript(DIRPLAYER_URL, { "data-manual-init": "" });
+            const el = document.createElement("embed");
+            el.setAttribute("src", gameUrl);
+            el.setAttribute("type", "application/x-director");
+            // Pixel sizes: a "100%" attribute may be read as 100px by the polyfill
+            el.setAttribute("width", String(container.clientWidth));
+            el.setAttribute("height", String(container.clientHeight));
+            container.innerHTML = "";
+            container.appendChild(el);
+            console.log("[Forgotten Games] DirPlayer embed:", gameUrl, el.width, "x", el.height);
+            window.DirPlayer.init();
+        }
 
-            document.getElementById("fullscreenBtn").addEventListener("click", () => {
-                if (player.requestFullscreen) {
-                    player.requestFullscreen();
-                }
-            });
+        window.addEventListener("DOMContentLoaded", async () => {
+            const params = new URLSearchParams(window.location.search);
+            // "swf" keeps working for existing links; it also accepts .dcr files
+            gameUrl = params.get("swf") || params.get("dcr");
+
+            if (!gameUrl) {
+                showStatus("No game selected. Add ?swf=game.swf or ?swf=game.dcr to the address.");
+                return;
+            }
+
+            kind = detectKind(gameUrl);
+
+            try {
+                if (kind === "director") await startDirector();
+                else await startFlash();
+            } catch (err) {
+                console.error(err);
+                showStatus("The player could not be loaded. Check your connection and reload the page.");
+            }
+        });
+
+        document.getElementById("restartBtn").addEventListener("click", () => {
+            if (!gameUrl) return;
+            if (kind === "flash" && player) player.load(gameUrl);
+            else if (kind === "director") window.location.reload(); // simplest clean restart for DirPlayer
+        });
+
+        document.getElementById("fullscreenBtn").addEventListener("click", () => {
+            const target = (kind === "flash" && player) ? player : container;
+            if (target.requestFullscreen) target.requestFullscreen();
         });
     </script>
 </body>

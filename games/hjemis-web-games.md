@@ -12,7 +12,7 @@ parent: Games
 
 ## Games:
 
-Alot of the games are still playable in the browser thanks to web.archive.org. The games are hosted by ForgottenGames. The .dcr Shockwave games are not playable unfortunately. But there is a link to the .dcr files in the bottom of this page.
+Alot of the games are still playable in the browser thanks to web.archive.org. The games are hosted by ForgottenGames. Unfortunately only some of the .dcr Shockwave games are playable. Some games are simply missing files that havent been archived yet. But there is a link to the .dcr files in the bottom of this page.
 
 ### .swf Flash games:
 
@@ -30,11 +30,13 @@ Alot of the games are still playable in the browser thanks to web.archive.org. T
 
 ### .dcr Shockwave games:
 
+Alot of time have been spent inside dirplayer's debugger and using director mx 2004 to edit the .dcr shockwave games to work on modern browsers.
+
 [Archived .dcr game files](https://github.com/zhiftyDK/ForgottenGames/tree/main/archive/hjemis_web_games/dcrgames)
 
-* Rummets Fjender (iskallt.dcr)
+* [Rummets Fjender (fixed_iskallt.dcr)](https://zhiftydk.github.io/ForgottenGames/swfplayer.html?swf=archive/hjemis_web_games/dcrgames/fixed_iskallt.dcr)
 * Lillebror Krydderierne Demo (Scene_03.dcr)
-* Memory (memory.dcr)
+* [Memory (memory.dcr)](https://zhiftydk.github.io/ForgottenGames/swfplayer.html?swf=archive/hjemis_web_games/dcrgames/memory.dcr)
 * BattaBatta (Snowboard_offline.dcr)
 * Pixeline Dyrespillet (Dyrespillet.dcr)
 
